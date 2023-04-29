@@ -8,13 +8,13 @@ const api = () => {
         return URL;
     }
 
-    const http = () => {
+    const getAxios = () => {
         return axios.create()
     }
 
     return {
         getUrl,
-        http,
+        getAxios,
     }
 }
 

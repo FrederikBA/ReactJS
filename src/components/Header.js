@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <nav>
-                <ul className='navbar'>
+                <ul className='header'>
                     <li><NavLink to='/'>One</NavLink></li>
                     <li><NavLink to='/two'>Two</NavLink></li>
                 </ul>
